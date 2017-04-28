@@ -93,4 +93,12 @@ public class FileEncode {
 		}
 		return encode;
 	}
+	
+	public static String getCode(File file) {
+		String code = getFileEncode(file);
+		if ("asci".equals(code)) {
+			code = "GBK";
+		}
+		return code;
+	}
 }
