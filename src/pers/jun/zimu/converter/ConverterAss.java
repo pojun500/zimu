@@ -1,12 +1,7 @@
 package pers.jun.zimu.converter;
 
-import static org.junit.Assert.assertEquals;
-
 import java.util.Arrays;
 
-import org.junit.Test;
-
-import pers.jun.zimu.Main;
 import pers.jun.zimu.util.Util;
 
 public class ConverterAss implements Converter {
